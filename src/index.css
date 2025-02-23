@@ -1,0 +1,166 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #3D3D3D;
+  background-color: #c4bbb4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #3D3D3D;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #3D3D3D;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #767470;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #3D3D3D;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #3D3D3D;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+body {
+  background-color: #c4bbb4;
+
+  padding: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: #3D3D3D;
+}
+/* Style the todo list container */
+.todo-list {
+  background-color: #968f8a;
+  padding: 20px;
+  border: 1px solid #c4bbb4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #3D3D3D;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin: 10px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #3D3D3D;
+  border: 1px solid #c4bbb4;
+
+  color: #fff;
+  padding: 3px 3px;
+  font-size: 15px;
+  cursor: pointer;
+  /* background-color: #e74c3c; */
+}
+
+button:hover {
+  background-color: #968f8a;
+}
+input {
+  /* background-image: linear-gradient(to bottom, #f9f9f9, #e5e5e5); */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+/* Style the todo list items */
+/* .todo-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+} */
+
+/* Style the todo list items on hover */
+/* .todo-list li:hover {
+  background-color: #f2f2f2;
+} */
+
+/* Style the todo list item text */
+/* .todo-list li span {
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+/* Style the todo list item checkbox */
+/* .todo-list li input[type="checkbox"] {
+  margin-right: 10px;
+} */
+
+/* Style the todo list item delete button */
+/* .todo-list li button {
+  float: right;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+/* Style the todo list item delete button on hover */
+/* .todo-list li button:hover {
+  background-color: #c0392b;
+} */
